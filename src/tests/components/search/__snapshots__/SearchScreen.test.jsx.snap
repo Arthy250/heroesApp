@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen/> Debe de mostarr un error si no se encuentra el heroe 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="heroSearch"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batmanasdfasd"
+        />
+        <button
+          className="btn btn-block btn-outline-primary mt-3"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger"
+      >
+         There is not a hero with "
+        batmanasdfasd
+        " 
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen/> Debe de mostrarse correctamente con los valores por defecto 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="heroSearch"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-block btn-outline-primary mt-3"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+         Search a hero 
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen/> Debe de traer los resultados correspondientes a la URL 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="heroSearch"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-block btn-outline-primary mt-3"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="card ms-3"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Batman"
+              className="card-img"
+              src="./assets/heroes/dc-batman.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <div
+                className="card-title"
+              >
+                Batman
+              </div>
+              <p
+                className="card-text"
+              >
+                Bruce Wayne
+              </p>
+              <div
+                className="card-text"
+              >
+                <p
+                  className="text-muted"
+                >
+                   
+                  Detective Comics #27
+                   
+                </p>
+              </div>
+              <a
+                href="/heroe/dc-batman"
+                onClick={[Function]}
+              >
+                Mas...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
